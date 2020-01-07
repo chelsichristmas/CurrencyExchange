@@ -33,8 +33,12 @@ struct CurrencySearchAPI {
         case .success(let data):
           do {
             
-            let questions = try JSONDecoder().decode(Rate.self, from: data)
-            completion(.success(questions))
+            let currencyRates = try JSONDecoder().decode(Currency.self, from: data)
+            
+            print(currencyRates.timestamp)
+            
+            completion(.success(currencyRates.rates))
+            
           } catch {
             completion(.failure(.decodingError(error)))
           }

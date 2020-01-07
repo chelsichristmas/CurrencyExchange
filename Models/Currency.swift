@@ -9,6 +9,7 @@
 import Foundation
 
 struct Currency: Codable {
+    let timestamp: Double
     let rates: Rate
 }
 
