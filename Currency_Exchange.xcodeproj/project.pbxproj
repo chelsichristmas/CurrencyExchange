@@ -20,6 +20,7 @@
 		6B05855523C37C9800887DFA /* CurrencySearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B05855423C37C9800887DFA /* CurrencySearchAPI.swift */; };
 		6B05855823C37CCC00887DFA /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B05855723C37CCC00887DFA /* Currency.swift */; };
 		6B05855D23C391AB00887DFA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B05855C23C391AB00887DFA /* DetailViewController.swift */; };
+		6BFA059A23C51A5C00D9F4E8 /* CurrencyInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 6BFA059923C51A5C00D9F4E8 /* CurrencyInfo.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		6B05855423C37C9800887DFA /* CurrencySearchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencySearchAPI.swift; sourceTree = "<group>"; };
 		6B05855723C37CCC00887DFA /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		6B05855C23C391AB00887DFA /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		6BFA059923C51A5C00D9F4E8 /* CurrencyInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = CurrencyInfo.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				6B05852A23C37B0000887DFA /* AppDelegate.swift */,
 				6B05852C23C37B0000887DFA /* SceneDelegate.swift */,
+				6BFA059923C51A5C00D9F4E8 /* CurrencyInfo.json */,
 				6B05852E23C37B0000887DFA /* ViewController.swift */,
 				6B05855C23C391AB00887DFA /* DetailViewController.swift */,
 				6B05853023C37B0000887DFA /* Main.storyboard */,
@@ -222,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BFA059A23C51A5C00D9F4E8 /* CurrencyInfo.json in Resources */,
 				6B05853723C37B0300887DFA /* LaunchScreen.storyboard in Resources */,
 				6B05853423C37B0300887DFA /* Assets.xcassets in Resources */,
 				6B05853223C37B0000887DFA /* Main.storyboard in Resources */,
